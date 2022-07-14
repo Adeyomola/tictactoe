@@ -99,6 +99,7 @@ button {
     border-radius: 0.3rem;
     font-family: 'Roboto';
     font-size: 1.5rem;
+    color: black;
 }
 
 button:active {
