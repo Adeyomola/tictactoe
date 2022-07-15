@@ -108,6 +108,12 @@ button:active {
 }
 
 @media (min-width: 320px) and (max-width: 359px) {
+
+    html,
+    body {
+        background-color: transparent;
+    }
+
     header {
         font-size: 3rem;
         padding: 0;
@@ -127,7 +133,21 @@ button:active {
     }
 }
 
+@media (min-width: 360px) and (max-width: 760px) {
+
+    html,
+    body {
+        background-color: transparent;
+    }
+}
+
 @media (min-width: 761px) and (max-width: 1024px) {
+
+    html,
+    body {
+        background-color: transparent;
+    }
+
     header {
         font-size: 5rem;
     }
